@@ -22,19 +22,32 @@ body{
     background-attachment: fixed;
 }
 
-header ul{
+nav ul{
     padding: 10px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-a{
+ nav a{
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(255, 2, 2);
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+header img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    border:3px solid var(--cor1);
+}
+
+header > div{
+    text-align: center;
 }
 
 header > h1, h2{
@@ -67,21 +80,19 @@ footer img{
 footer{
     display: flex;
     justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
     padding: 10px;
-    
+    color: white;
+    text-align: center;
 }
 
-
-#cabecalho img{
-    margin-top: 50px;
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    border-radius: 50%;
-    text-align: center;
-
+footer > a > p{
+    padding-top: 10px;
 }
 
-#cabecalho{
-    text-align: center;
+#principal{
+    padding: 30px 50px;
 }
