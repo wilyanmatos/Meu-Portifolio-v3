@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: var(--cor0);
+}
+
+:root{
+    --cor0:white;
+    --cor1:#6B6BF2;
+    --cor2:#2221F0;
+    --cor3:#1A1ABD;
+    --cor4:#313170;
+    --cor5:#101070;
+    --cor6:black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, var(--cor6), var(--cor6), var(--cor4));
+    background-attachment: fixed;
+}
+
+header ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header > h1, h2{
+    margin:20px 0px ;
+}
+
+header > h1{
+    color: var(--cor1);
+    font-size: 2.3em;
+}
+
+header > h2{
+    font-size: 1.8em;
+}
+
+section > h3{
+    margin: 20px 0px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+#cabecalho img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+#cabecalho{
+    text-align: center;
+}
