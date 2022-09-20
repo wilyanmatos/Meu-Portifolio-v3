@@ -17,23 +17,29 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor6), var(--cor4));
 }
 
 header > div{
-    color: white;
     font-size: 2.2em;
     text-align: center;
     padding-top: 30px;
     color: var(--cor2);
 }
 
-header > nav > a{
+nav ul{
+    padding: 10px;
     display: flex;
-    text-decoration: none;
-    color: white;
     justify-content: space-between;
+    list-style-type: none;
 }
+
+nav a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: larger;
+}
+
 
 main > section{
     height: 100vh;
@@ -49,7 +55,16 @@ main > section  div{
     background-color: white;
     border-radius: 5px;
     margin: 15px 15px 15px 15px; 
+    background-image: url(imgs/faixa-em-breve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
+#principal{
+    padding: 30px 50px;
+}
 
+#atual_pag{
+    color: white;
+}
