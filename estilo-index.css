@@ -36,9 +36,6 @@ nav ul{
     font-size: larger;
 }
 
-#atual_pag{
-    color: var(--cor0);
-}
 
 header img{
     margin-top: 50px;
@@ -96,6 +93,23 @@ footer > a > p{
     padding-top: 10px;
 }
 
+
+::-webkit-scrollbar{
+    background-color: black;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor3);
+    border-radius: 5px;
+}
+
+
+
 #principal{
     padding: 30px 50px;
+}
+
+#atual_pag{
+    color: var(--cor0);
 }

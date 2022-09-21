@@ -18,6 +18,8 @@
 
 body{
     background-image: linear-gradient(to bottom, var(--cor6), var(--cor6), var(--cor4));
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header > div{
@@ -42,24 +44,58 @@ nav a{
 
 
 main > section{
-    height: 100vh;
     margin-top: 50px;
-    grid-row: 2;
-    text-align: center;
+    display: flex;
+    
+    
 }
 
 main > section  div{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
+    display: flex;
+    width: 200px;
+    height: 200px;
     background-color: white;
     border-radius: 5px;
-    margin: 15px 15px 15px 15px; 
+    margin: 15px 15px 15px 15px;   
+    border: 5px solid var(--cor2);
+    justify-content: space-evenly;
+    
+    
+}
+
+::-webkit-scrollbar{
+    background-color: var(--cor6);
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor3);
+    border-radius: 5px;
+}
+
+
+.projeto_01{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    justify-content: center;
+    
+}
+
+.projeto_01 > img{
+    width: 100px;
+    height: 100px;
+}
+
+.em_breve{
     background-image: url(imgs/faixa-em-breve.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
+
 
 #principal{
     padding: 30px 50px;
@@ -68,3 +104,4 @@ main > section  div{
 #atual_pag{
     color: white;
 }
+
