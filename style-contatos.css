@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor0:white;
+    --cor1:#6B6BF2;
+    --cor2:#2221F0;
+    --cor3:#1A1ABD;
+    --cor4:#313170;
+    --cor5:#101070;
+    --cor6:black;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: large;
+}
+
+main > div{
+    width: 300px;
+    height: 400px;
+}

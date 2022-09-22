@@ -44,8 +44,9 @@ nav a{
 
 
 main > section{
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
+    justify-content: center;
     
     
 }
@@ -74,7 +75,7 @@ main > section  div{
 }
 
 
-.projeto_01{
+#projeto_01{
     display: flex;
     align-items: center;
     text-align: center;
@@ -83,11 +84,19 @@ main > section  div{
     font-size: 1.8em;
     justify-content: center;
     
+    
 }
 
-.projeto_01 > img{
+#projeto_01 > img{
     width: 100px;
     height: 100px;
+}
+
+
+#projeto_01:hover > img{
+    width: 150px;
+    height: 150px;
+
 }
 
 .em_breve{
