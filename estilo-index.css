@@ -112,4 +112,5 @@ footer > a > p{
 
 #atual_pag{
     color: var(--cor0);
+    font-weight: bold;
 }

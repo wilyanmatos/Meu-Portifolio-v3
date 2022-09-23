@@ -47,8 +47,6 @@ main > section{
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    
-    
 }
 
 main > section  div{
@@ -112,5 +110,6 @@ main > section  div{
 
 #atual_pag{
     color: white;
+    font-weight: bold;
 }
 
