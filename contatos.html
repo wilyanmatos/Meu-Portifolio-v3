@@ -18,15 +18,20 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
-                <div id="text_lorem">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium perferendis eaque explicabo soluta odit, facilis neque consectetur, suscipit corrupti illo repellat assumenda error. Temporibus rerum minima labore sunt? Aliquam, fuga.
-                    Illo veniam, tempora fugiat, commodi dolor beatae natus debitis mollitia hic, optio quod iure. Eaque omnis tempore in ex porro nostrum illo placeat, voluptas nam quaerat reprehenderit dolorum voluptates modi?
-                    Tempore in similique accusantium aspernatur eum quis. Cupiditate, tenetur repellat! Minima illo quaerat dolore eius nisi deserunt, nam quod iste natus voluptas, eveniet officiis suscipit placeat. Quibusdam, veniam asperiores! Eaque.
-                </div>
-            </section>
-        </main>
+        <section>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <h2>Contatos</h2>
+                <label>Nome</label>
+                <input type="text" name="Nome" placeholder="Digite o seu nome" autocomplete="off" required>
+                <label>E-mail</label>
+                <input type="email" name="E-mail" placeholder="Digite o seu E-mail" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="Message" cols="30" rows="10" placeholder="Escreva a sua mensagem" required></textarea>
+                <button type="submit" >Enviar</button>
+                <input type="hidden" name="accessKey" value="7bab42e5-7e02-41e5-ab59-52534f70d455">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
+        </section>
     </div>
 </body>
 </html>
