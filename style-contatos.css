@@ -115,6 +115,15 @@ nav a{
     font-weight: bold;
 }
 
+::-webkit-scrollbar{
+    background-color: var(--cor6);
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor3);
+    border-radius: 5px;
+}
 
 /*Página de Obrigado*/
 
