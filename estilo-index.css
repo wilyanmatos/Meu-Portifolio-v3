@@ -5,6 +5,7 @@
     padding: 0px;
     color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 :root{
@@ -19,6 +20,10 @@
 
 body{
     background-image: linear-gradient(to bottom, var(--cor6), var(--cor6), var(--cor4));
+}
+
+body p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul{
@@ -70,6 +75,25 @@ section > h3{
     margin: 20px 0px;
 }
 
+section a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+section > ul{
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+section li{
+    padding: 5px;
+}
+
+section abbr{
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
 footer{
     margin-top: 50px;
 }
@@ -107,8 +131,6 @@ footer > a > p{
     border-radius: 5px;
 }
 
-
-
 #principal{
     padding: 30px 50px;
 }
@@ -116,4 +138,8 @@ footer > a > p{
 #atual_pag{
     color: var(--cor0);
     font-weight: bold;
+}
+
+#linguagens{
+    
 }
