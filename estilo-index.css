@@ -91,6 +91,10 @@ section abbr{
     text-decoration: none;
 }
 
+section > span{
+    font-weight: bold;
+}
+
 footer{
     margin-top: 50px;
 }
@@ -141,6 +145,18 @@ footer > a > p{
     color: green;
 }
 
-#emoji_color_andamento{
-    
+.cursos{
+    border: 3px solid var(--cor3);
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 10px;
 }
+
+#completos span{
+    font-weight: bolder;
+}
+
+#andamento  span{
+    font-weight: bolder;
+} 
+
